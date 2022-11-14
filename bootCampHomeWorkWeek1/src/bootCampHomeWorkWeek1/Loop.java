@@ -1,10 +1,9 @@
 package bootCampHomeWorkWeek1;
 
 public class Loop {
-	Loop döngü = new Loop();
 	int i;
 
-	public static void forLoop(int i) {
+	public void forLoop(int i) {
 		for (i = 2; i < 10; i += 2) {
 			System.out.println(i);
 		}
@@ -12,7 +11,7 @@ public class Loop {
 
 	}
 
-	public static void whileLoop(int i) {
+	public void whileLoop(int i) {
 		while (i < 10) {
 			System.out.println(i);
 			i++;
@@ -21,7 +20,7 @@ public class Loop {
 
 	}
 
-	public static void doWhileLoop(int i) {
+	public void doWhileLoop(int i) {
 		do {
 			System.out.println("Loglandı.");
 			System.out.println(i);

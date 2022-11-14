@@ -1,9 +1,8 @@
 package bootCampHomeWorkWeek1;
 
 public class SmallProjectPrimalNumber {
-	SmallProjectPrimalNumber asalSayi = new SmallProjectPrimalNumber();
 
-	public static void isPrimeNumber(int number) {
+	public void isPrimeNumber(int number) {
 		if(number>1) {
 			if (number==2|number==3|number==5|number==7|number==11) {
 				System.out.println(number + " is a prime number.");

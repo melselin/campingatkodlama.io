@@ -1,9 +1,7 @@
 package bootCampHomeWorkWeek1;
 
 public class Arrays {
-	Arrays diziler = new Arrays();
-	public static void arrayDemos() {
-
+	public void arrayDemos() {
 
 		String[] students = new String[4];
 		students[0] = "Melisa";
@@ -16,7 +14,6 @@ public class Arrays {
 		}
 		System.out.println("*******************************************************for each:");
 
-		
 		for (String student : students) {
 			System.out.println(student);
 		}

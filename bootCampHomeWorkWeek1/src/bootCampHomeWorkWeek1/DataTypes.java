@@ -1,7 +1,6 @@
 package bootCampHomeWorkWeek1;
 
 public class DataTypes {
-	DataTypes datacesitleri = new DataTypes();
 	char karakter = 'a';
     byte sayi1 = 1;
     short sayi2 = 2;
@@ -11,7 +10,7 @@ public class DataTypes {
     double sayi7 = 23424.424234;
     boolean isItTrue = false;
      
-    public static void dataTipleriniYazdir() {
+    public void dataTipleriniYazdir() {
     	 System.out.println(" char karakter = 'a';");
     	 System.out.println(" byte sayi1 = 1;");
     	 System.out.println(" short sayi2 = 2;");

@@ -1,9 +1,8 @@
 package bootCampHomeWorkWeek1;
 
 public class SmallProject2findvowels {
-	SmallProject2findvowels vowels= new SmallProject2findvowels();
 
-	public static void isVowel(char letter) {
+	public void isVowel(char letter) {
 		String isTrue=letter + " is a vowel.";
 		String isFalse=letter + " is not a vowel.";
 		

@@ -1,9 +1,8 @@
 package bootCampHomeWorkWeek1;
 
 public class SmallProjectPerfectNumbers {
-	SmallProjectPerfectNumbers numbers = new SmallProjectPerfectNumbers();
 
-	public static void isPerfectNum(int n) {
+	public void isPerfectNum(int n) {
 		int nTotal=0;
 		for(int i=1;i<n;i++) {
 			if(n%i==0) {

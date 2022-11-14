@@ -1,8 +1,8 @@
 package bootCampHomeWorkWeek1;
 
 public class MultiDimentionalArrays {
-	MultiDimentionalArrays çokBoyutluDiziler = new MultiDimentionalArrays();
-	public static void multiDimentionYazdir() {
+
+	public void multiDimentionYazdir() {
 		String[][] cities = new String[3][3];
 		
 		cities[0][0]= "İstanbul";

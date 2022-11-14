@@ -1,9 +1,8 @@
 package bootCampHomeWorkWeek1;
 
 public class SwitchDemo {
-	SwitchDemo switchCase = new SwitchDemo();
 
-	public static void notSistemi() {
+	public void notSistemi() {
 		char grade = 'A';
 		switch (grade) {
 		case 'A':

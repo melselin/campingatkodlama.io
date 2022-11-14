@@ -1,8 +1,7 @@
 package bootCampHomeWorkWeek1;
 
 public class SmallProjectAmicableNumbers {
-	SmallProjectAmicableNumbers num = new SmallProjectAmicableNumbers();
-	public static void areAmicableNumbers(int a, int b) {
+	public void areAmicableNumbers(int a, int b) {
 
 		int aSum=0;
 		int bSum=0;

@@ -1,9 +1,8 @@
 package bootCampHomeWorkWeek1;
 
 public class HelloWorldPrinter {
-	HelloWorldPrinter printer = new HelloWorldPrinter();
 
-	public static void helloWorldYazdır() {
+	public void print() {
 		System.out.println("Howdy ho Java world! We came here to rock 'n roll!111bir");
 	}
 

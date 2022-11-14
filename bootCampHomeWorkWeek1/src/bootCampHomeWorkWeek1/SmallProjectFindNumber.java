@@ -1,9 +1,8 @@
 package bootCampHomeWorkWeek1;
 
 public class SmallProjectFindNumber {
-	SmallProjectFindNumber num = new SmallProjectFindNumber();
 
-	public static void findNum(int a) {
+	public void findNum(int a) {
 		int[]numbers = {1,2,5,7,9,0};
 		boolean isThere= false;
 		for(int searched:numbers) {

@@ -1,9 +1,8 @@
 package bootCampHomeWorkWeek1;
 
 public class StringsDemo {
-	StringsDemo string = new StringsDemo();
 
-	public static void chara() {
+	public void chara() {
 		String mesaj = "Bugün hava çok güzel.";
 		System.out.println("Karakter sayısı:" + mesaj.length());
 		System.out.println("5.eleman:" + mesaj.charAt(4));
