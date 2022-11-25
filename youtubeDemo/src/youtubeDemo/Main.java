@@ -10,6 +10,7 @@ public class Main {
 		num1 = num2;
 		num2 = 20;
 		System.out.println(num1);
+
 //We get 10 bc it passes by value.
 
 		int numbers1[] = new int[] { 2, 10, 5 };
@@ -17,6 +18,7 @@ public class Main {
 		numbers1 = numbers2;
 		numbers2[0] = 1000;
 		System.out.println(numbers1[0]);
+
 //We get 1000 bc it passes by reference, therefore numbers1 points to the same datas with numbers2 
 
 		CreditManager creditManager = new CreditManager();// instance creation
@@ -116,9 +118,9 @@ interface ICreditManager {
 
 }
 
-
 abstract class BaseCreditManager implements ICreditManager {
 	public abstract void calculate();
+
 //DRY
 	public void save() {
 		System.out.println("Saved.");
