@@ -61,27 +61,24 @@ public class Main {
 		product.setPrice(2000);
 		product.setStockAmount(3);
 		product.getProductCode();
-		
-		
-		ProductManager productManager= new ProductManager();
+
+		ProductManager productManager = new ProductManager();
 		productManager.add(product);
 //		Product product = new Product(1,"Laptop","Asus Laptop", 33.00,4);
 //		System.out.println(product.getProductCode());
-		
-		
-		//overloading
+
+		// overloading
 		method.add(2, 3);
 		method.add(2, 3, 4);
-		
-	    //Inheritance
-		Customer customer=new Customer();
-		Employee employee=new Employee();
-		customer.age=23;
-		employee.age=32;
-		
-		
-		EmployeeManager employeeManager=new EmployeeManager();
-		CustomerManager customerManager=new CustomerManager();
+
+		// Inheritance
+		Customer customer = new Customer();
+		Employee employee = new Employee();
+		customer.age = 23;
+		employee.age = 32;
+
+		EmployeeManager employeeManager = new EmployeeManager();
+		CustomerManager customerManager = new CustomerManager();
 		customerManager.add();
 		employeeManager.BestEmployee();
 	}
