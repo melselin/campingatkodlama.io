@@ -2,9 +2,9 @@ package oopWithNLayeredApp.entities;
 
 public class Product {
 
-	private int id;
-	private String name;
-	private double unitPrice;
+	private int _id;
+	private String _name;
+	private double _unitPrice;
 
 	public Product() {
 		super();
@@ -12,33 +12,33 @@ public class Product {
 
 	public Product(int id, String name, double unitPrice) {
 		super();
-		this.id = id;
-		this.name = name;
-		this.unitPrice = unitPrice;
+		this._id = id;
+		this._name = name;
+		this._unitPrice = unitPrice;
 	}
 
 	int getId() {
-		return id;
+		return _id;
 	}
 
 	void setId(int id) {
-		this.id = id;
+		this._id = id;
 	}
 
 	String getName() {
-		return name;
+		return _name;
 	}
 
 	void setName(String name) {
-		this.name = name;
+		this._name = name;
 	}
 
-	double getUnitPrice() {
-		return unitPrice;
+	public double getUnitPrice() {
+		return _unitPrice;
 	}
 
 	void setUnitPrice(double unitPrice) {
-		this.unitPrice = unitPrice;
+		this._unitPrice = unitPrice;
 	}
 	
 	
