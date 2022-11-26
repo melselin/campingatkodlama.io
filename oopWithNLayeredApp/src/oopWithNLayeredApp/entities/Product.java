@@ -17,7 +17,7 @@ public class Product {
 		this._unitPrice = unitPrice;
 	}
 
-	int getId() {
+	public int getId() {
 		return _id;
 	}
 
@@ -25,7 +25,7 @@ public class Product {
 		this._id = id;
 	}
 
-	String getName() {
+	public String getName() {
 		return _name;
 	}
 
