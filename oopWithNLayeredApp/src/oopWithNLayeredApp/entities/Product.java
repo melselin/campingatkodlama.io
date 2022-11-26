@@ -40,8 +40,5 @@ public class Product {
 	void setUnitPrice(double unitPrice) {
 		this._unitPrice = unitPrice;
 	}
-	
-	
-	
 
 }

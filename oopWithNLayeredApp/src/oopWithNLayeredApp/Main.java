@@ -6,8 +6,8 @@ import oopWithNLayeredApp.entities.Product;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		Product product1=new Product(1,"Iphone Xr",10000);
-		ProductManager productManager= new ProductManager();
+		Product product1 = new Product(1, "Iphone Xr", 10000);
+		ProductManager productManager = new ProductManager();
 		productManager.add(product1);
 	}
 
@@ -18,12 +18,8 @@ public class Main {
 //API
 //UI
 
-
 //JDBC
 //Hibernate-ORM
 //JPA
 
-
-
 //For sustainability and better management we divide our program into smaller parts 
-
