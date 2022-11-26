@@ -5,7 +5,7 @@ import oopWithNLayeredApp.entities.Product;
 public class Main {
 
 	public static void main(String[] args) {
-		
+		Product product=new Product(1,"Iphone Xr",10000);
 
 	}
 
