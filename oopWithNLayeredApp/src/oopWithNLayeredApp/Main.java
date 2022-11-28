@@ -1,7 +1,5 @@
 package oopWithNLayeredApp;
 
-import java.util.List;
-
 import oopWithNLayeredApp.business.ProductManager;
 import oopWithNLayeredApp.core.logging.DatabaseLogger;
 import oopWithNLayeredApp.core.logging.FileLogger;
