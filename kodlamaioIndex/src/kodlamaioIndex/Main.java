@@ -18,7 +18,7 @@ public class Main {
 		Course course5 = new Course("Programlamaya Giriş için Temel Kurs",5,"Engin Demiroğ",0);
 		
 		Logger[]loggers= {new DataBaseLogger(), new FileLogger(), new MailLogger()};
-		CourseManager courseManager = new CourseManager(new HibernateCourseDao(),loggers);
+		CourseManager courseManager = new CourseManager(CourseDao courseDao, loggers, Course[]course);
 		courseManager.add(course1);
 		courseManager.add(course2);
 		courseManager.add(course3);
