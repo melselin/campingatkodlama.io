@@ -9,10 +9,10 @@ public class CategoryManager {
 	private Logger[] loggers;
 	private Category[] categories;
 
-	public CategoryManager(CategoryDao categoryDao, Logger[] loggers) {
-		super();
+	public CategoryManager(CategoryDao categoryDao, Logger[] loggers, Category[]categories) {
 		this.categoryDao = categoryDao;
 		this.loggers = loggers;
+		this.categories=categories;
 	}
 
 	public void add(Category category) throws Exception {
