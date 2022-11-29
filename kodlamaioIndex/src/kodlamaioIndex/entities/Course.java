@@ -9,7 +9,6 @@ public class Course {
 		super();
 	}
 	public Course(String courseName, int courseId, String instructor, double coursePrice) {
-		super();
 		this._courseName = courseName;
 		this._courseId = courseId;
 		this._instructor = instructor;

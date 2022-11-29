@@ -18,7 +18,7 @@ public class CourseManager {
 	public void add(Course course) throws Exception {
 		for (Course newCourse : courses) {
 			if (course.get_courseName() == newCourse.get_courseName())
-				throw new Exception("This course name has been already taken. Please try again.");
+//				throw new Exception("This course name has been already taken. Please try again.");
 			if (course.get_coursePrice() < 0) {
 
 				throw new Exception("The course price can not be lesser than 0 TRY!");

@@ -12,7 +12,6 @@ public class Category {
 
 
 	public Category(String categoryType) {
-		super();
 		this._categoryType = categoryType;
 	}
 
