@@ -10,7 +10,6 @@ import kodlamaioIndex.core.logging.MailLogger;
 import kodlamaioIndex.dataAccess.HibernateCategoryDao;
 import kodlamaioIndex.dataAccess.HibernateCourseDao;
 import kodlamaioIndex.dataAccess.HibernateInstructorDao;
-import kodlamaioIndex.dataAccess.JdbcCourseDao;
 import kodlamaioIndex.entities.Category;
 import kodlamaioIndex.entities.Course;
 import kodlamaioIndex.entities.Instructor;
