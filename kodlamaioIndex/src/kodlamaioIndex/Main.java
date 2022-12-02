@@ -17,14 +17,17 @@ import kodlamaioIndex.entities.Instructor;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		Course course1 =  new Course("Yazılım Geliştirici Yetiştirme Kampı (C# + ANGULAR)",1,"Engin Demiroğ",0);
-		Course course2 = new Course("Yazılım Geliştirici Yetiştirme Kampı (JAVA + REACT)",2,"Engin Demiroğ",0);
-		Course course3 = new Course("Yazılım Geliştirici Yetiştirme Kampı (JavaScript)",3,"Engin Demiroğ",10);
-		Course course4 = new Course("(2022) Yazılım Geliştirici Yetiştirme Kampı - JAVA",4,"Engin Demiroğ",0);
-		Course course5 = new Course("Programlamaya Giriş için Temel Kurs",5,"Engin Demiroğ",0);
+		Instructor instructor1= new Instructor("Engin", "Demiroğ", 01);
+		Course course1 = new Course("Yazılım Geliştirici Yetiştirme Kampı (C# + ANGULAR)", 1, 0); 
+		Course course2 = new Course("Yazılım Geliştirici Yetiştirme Kampı (JAVA + REACT)",2,0);
+		Course course3 = new Course("Yazılım Geliştirici Yetiştirme Kampı (JavaScript)",3,10);
+		Course course4 = new Course("(2022) Yazılım Geliştirici Yetiştirme Kampı - JAVA",4,0);
+		Course course5 = new Course("Programlamaya Giriş için Temel Kurs",5,0);
+		
+		
 		Category category1= new Category("Programlama");
 		Category category2= new Category("Tümü");
-		Instructor instructor1= new Instructor("Engin","Demiroğ",1);
+
 		Logger[]loggers= {new DataBaseLogger(), new FileLogger(), new MailLogger()};
 		Course [] courses = {course1, course2, course3, course4, course5};
 		Category[]categories = {category1, category2};

@@ -18,8 +18,8 @@ public class CategoryManager {
 	public void add(Category category) throws Exception {
 
 		for (Category newCategory : categories) {
-//			if (category.get_categoryType() == newCategory.get_categoryType()) {
-//				throw new Exception("This category already exists. Please try again.");
+			if (newCategory.get_categoryType() == category.get_categoryType()) {
+				throw new Exception("This category already exists. Please try again.");
 
 			}
 			categoryDao.add(category);
@@ -29,6 +29,6 @@ public class CategoryManager {
 
 		}
 
-	}
-
 }
+}
+
