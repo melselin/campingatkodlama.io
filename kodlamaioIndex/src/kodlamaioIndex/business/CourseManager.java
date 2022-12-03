@@ -17,14 +17,13 @@ public class CourseManager {
 
 	public void add(Course course) throws Exception {
 		for (Course newCourse : courses) {
-			if (newCourse.get_courseName()==course.get_courseName())  
+			if (course.get_courseName().equals(newCourse.get_courseName()))
 				throw new Exception("This course name has been already taken. Please try again.");
-			if (newCourse.get_coursePrice() < 0) {
+			if (newCourse.get_coursePrice() < 10) {
 
 				throw new Exception("The course price can not be lesser than 0 TRY!");
 			}
 		}
-
 		courseDao.add(course);
 		for (Logger logger : loggers) {
 			logger.log(course.get_courseName());

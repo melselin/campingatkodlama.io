@@ -3,7 +3,6 @@ package kodlamaioIndex.entities;
 public class Instructor {
 	String _firstName;
 	String _lastName;
-	String _fullName=_firstName+" "+_lastName;
 	int _instructorId;
 
 	public Instructor() {
@@ -15,6 +14,7 @@ public class Instructor {
 		this._lastName = _lastName;
 		this._instructorId = _instructorId;
 	}
+	String _fullName=_firstName+" "+_lastName;
 
 	public String get_firstName() {
 		return _firstName;
