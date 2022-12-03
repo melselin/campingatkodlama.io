@@ -14,7 +14,8 @@ public class Instructor {
 		this._lastName = _lastName;
 		this._instructorId = _instructorId;
 	}
-	String _fullName=_firstName+" "+_lastName;
+
+	String _fullName = _firstName + " " + _lastName;
 
 	public String get_firstName() {
 		return _firstName;
@@ -23,7 +24,6 @@ public class Instructor {
 	void set_firstName(String firstName) {
 		this._firstName = firstName;
 	}
-	
 
 	public String get_fullName() {
 		return _fullName;
@@ -48,8 +48,5 @@ public class Instructor {
 	void set_lastName(String _lastName) {
 		this._lastName = _lastName;
 	}
-	
-	
-	
 
 }

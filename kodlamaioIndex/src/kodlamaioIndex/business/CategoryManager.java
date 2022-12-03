@@ -22,7 +22,7 @@ public class CategoryManager {
 				throw new Exception("This category already exists. Please try again.");
 
 			}
-		}
+		} 
 		categoryDao.add(category);
 		for (Logger logger : loggers) {
 			logger.log(category.get_categoryType());

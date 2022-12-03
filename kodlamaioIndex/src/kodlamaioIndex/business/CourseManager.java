@@ -28,7 +28,7 @@ public class CourseManager {
 		for (Logger logger : loggers) {
 			logger.log(course.get_courseName());
 
-		}
+		} 
 
 	}
 

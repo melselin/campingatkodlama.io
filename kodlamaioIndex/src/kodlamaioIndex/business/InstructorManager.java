@@ -17,7 +17,7 @@ public class InstructorManager {
 	public void add(Instructor instructor) {
 		instructorDao.add(instructor);
 		for (Logger logger : loggers) {
-			logger.log(instructor.get_firstName()+" "+instructor.get_lastName());
+			logger.log(instructor.get_firstName() + " " + instructor.get_lastName());
 
 		}
 	}

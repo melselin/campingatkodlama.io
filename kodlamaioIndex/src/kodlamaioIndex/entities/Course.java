@@ -1,16 +1,13 @@
 package kodlamaioIndex.entities;
 
 public class Course {
-	Instructor instructor= new Instructor();
-	String _courseInstructor= instructor.get_fullName();
+	Instructor instructor = new Instructor();
+	String _courseInstructor = instructor.get_fullName();
 	String _courseName;
 	int _courseId;
-	double _coursePrice;
+	double _coursePrice; 
 
-	
-
-
-	public Course( String _courseName, int _courseId, double _coursePrice) {
+	public Course(String _courseName, int _courseId, double _coursePrice) {
 		super();
 		this._courseName = _courseName;
 		this._courseId = _courseId;
@@ -38,7 +35,7 @@ public class Course {
 	}
 
 	void set_instructor(String instructor) {
-		this._courseInstructor=instructor;
+		this._courseInstructor = instructor;
 	}
 
 	public double get_coursePrice() {
